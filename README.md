@@ -1,31 +1,19 @@
 # React Router Templates
-(last updated on 11 APRIL 2023)
+> last updated on 11 APRIL 2023
 
-<!-- TABLE OF CONTENTS -->
-### Table of Contents
-<details>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+<br>
+
+## Table of Contents
+
+<ul>
+<li>
+    <a href="#getting-started">Getting Started</a>
+    <ul>
+    <li><a href="#download-and-installation">Download and Installation</a></li>
+    <li><a href="#running-the-templates">Running the Templates</a></li>
+    </ul>
+</li>
+</ul>
 
 <br>
 
@@ -50,7 +38,7 @@ The contents of this repository are templates for creating `React.js` projects u
 
 <br>
 
-### Running the Template
+### Running the Templates
 To create a local server and view live changes, enter the following:
    ```terminal
    $ npm start
