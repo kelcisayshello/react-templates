@@ -19,7 +19,7 @@
 
 ## Getting Started
 
-The contents of this repository are templates for creating `React.js` projects using `react-router-dom`.
+The contents of this repository are templates for creating **React.js** projects using `react-router-dom`.
 
 <br>
 
@@ -39,10 +39,10 @@ The contents of this repository are templates for creating `React.js` projects u
 <br>
 
 ### Running the Templates
-To create a local server and view live changes, enter the following:
+* To create a local server and view live changes, enter the following:
    ```terminal
    $ npm start
    ```
-To end the server, press `cmd` + `c` keys if on Mac, or `ctrl` + `c` if on Windows.
+* To end the server, press `cmd` + `c` keys if on MacOS, or `ctrl` + `c` if on Windows.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
