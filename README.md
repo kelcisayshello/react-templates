@@ -45,4 +45,4 @@ The contents of this repository are templates for creating **React.js** projects
    ```
 * To end the server, press `cmd` + `c` keys if on MacOS, or `ctrl` + `c` if on Windows.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#react-router-templates">back to top</a>)</p>
