@@ -2,17 +2,14 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom"
 
  
-class Navigation extends Component {
+class Footer extends Component {
   render() {
     return (
       <div>
         <nav>
         <ul>
           <li>
-            <Link to="/">HTML</Link>
-          </li>
-          <li>
-            <Link to="/JavaScriptPage">JavaScript</Link>
+            <Link to="https://www.github.com/k3nsah" target="_blank" rel="noopener noreferrer" >Copyright @ 2023 - made by @k3nsah</Link>
           </li>
         </ul>
       </nav>
@@ -21,4 +18,4 @@ class Navigation extends Component {
   }
 }
  
-export default Navigation;
+export default Footer;
