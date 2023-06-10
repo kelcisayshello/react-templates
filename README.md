@@ -1,5 +1,5 @@
 # React Templates
-> last updated on 10 June 2023.
+> Last updated on 10 June 2023.
 
 <br>
 
@@ -14,7 +14,7 @@ The contents of this repository are templates for creating different kinds of **
 <br>
 
 
-#### Download and install.
+### Download and install.
 
 1. Download this repository as a .zip file by clicking the green `Code` button at the top and selecting "Download ZIP". 
 2. On your local machine, extract the contents of the .zip file.
@@ -27,11 +27,11 @@ $ npm install
 
 <br>
 
-#### Running the templates.
+### Running the templates.
 * To create a local server and view live changes, enter the following into the terminal:
 ```bash
 $ npm start
 ```
-* To kill the server, press `cmd` + `c` keys in the terminal if on MacOS, or `ctrl` + `c` in the command prompt if on Windows.
+* To kill the server, press `cmd` + `c` in the terminal if on MacOS, or `ctrl` + `c` in the command prompt if on Windows.
 
 <p align="right">(<a href="#react-templates">back to top</a>)</p>
