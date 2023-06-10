@@ -37,12 +37,12 @@ $ npm start
 <p align="right">(<a href="#react-templates">back to top</a>)</p>
 
 ### Deploying to GitHub Pages :octocat:.
-This section is broken into two parts. The first part is ensuring that the React app is setup for GitHub Pages. The second part is ensuring that your GitHub repository is setup for GitHub Pages.
+This section is broken into two parts. The first part is ensuring that the React app is properly configured for GitHub Pages. The second part is ensuring that your GitHub repository is also setup for GitHub Pages.
 
 #### Setting up the React app.
 1. Log into GitHub and create a new repository.
-* Enter any name.
-* Set privacy to public (or private if you have GitHub Pro subscription).
+    * Enter any name.
+    * Set privacy to public (or private if you have GitHub Pro subscription).
 2. On your local machine, within the directory of an already created React app, install the `gh-pages` package dependency by entering the following in the terminal:
 ```bash
 $ npm install gh-pages --save-dev
@@ -76,5 +76,5 @@ $ npm run deploy -- -m "Deploying React app to GitHub Pages"
 4. Select `gh-pages` as the branch and `/ (root)` as the folder. 
 5. Press save.
 
-It will take GitHub a short time to properly set up the Pages site, but the link should appear in green on the same page when it is finished 🎉!
+It will take GitHub a short time to properly set up the Pages site, but the link should appear in green on the same page when it is finished 🎉! For more information, visit <a href="https://github.com/gitname/react-gh-pages">https://github.com/gitname/react-gh-pages</a>.
 
