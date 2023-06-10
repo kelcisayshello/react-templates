@@ -1,23 +1,43 @@
-import { Routes, Route } from "react-router-dom"
-import Index from "./pages/Index"
+import './App.css';
+import { Routes, Route, Link } from "react-router-dom"
+import Landing from "./pages/Landing"
 import HTMLPage from "./pages/HTMLPage"
-import JavaScriptPage from "./pages/JavaScriptPage"
-import Navigation from "./components/Navigation"
-import Footer from "./components/Footer"
-
 
 function App() {
   return (
-    <div>
-      <h1>Landing Page</h1>
-      <Navigation />
+    <div className="App">
+
+      <h1>React Router TypeScript</h1>
+
+      <div className="navigation">
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/HTMLPage">HTML Page</Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
       <Routes>
-      <Route path="/" element={ <Index /> } />
-        <Route path="HTMLPage" element={ <HTMLPage /> } />
-        <Route path="JavaScriptPage" element={ <JavaScriptPage /> } />
+        <Route path="/" element={<Landing />} />
+        <Route path="HTMLPage" element={<HTMLPage />} />
       </Routes>
-      <Footer />
+
+      <div className='Footer'>
+        <footer>
+          <ul>
+            <li>Copyright @ 2023 - template by&nbsp;
+              <Link to="https://www.github.com/kelcisayshello" target="_blank" rel="noopener noreferrer" >@kelcisayshello</Link>
+            </li>
+          </ul>
+        </footer>
+      </div>
     </div>
-  )
+  );
 }
+
 export default App;

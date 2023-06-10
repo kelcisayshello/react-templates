@@ -1,7 +1,10 @@
-# React Router Template
+## React Router TypeScript > React Templates
+> Last updated on 10 June 2023.
 
-> To install project dependencies, in the terminal type `$ npm install [dependecy name]`.
+<br>
 
-## Dependencies
-* react-router-dom
-* typescript
+### Dependencies.
+This template requires that `react-router-dom` be installed. To install this project's dependencies, in the terminal type the following:
+```bash
+$ npm install react-router-dom
+```
